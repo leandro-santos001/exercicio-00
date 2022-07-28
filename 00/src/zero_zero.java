@@ -15,9 +15,9 @@ public class zero_zero {
 		minutos=sc.nextDouble();
 		if(minutos>100) {
 			taxa=(minutos-100)*2+plano;
-			System.out.println("valor a ser pago com exedentes R$"+taxa);
+			System.out.printf("valor a ser pago com exedentes R$ %.2f",taxa);
 		}else {
-			System.out.println("valor a ser pago R$"+plano);
+			System.out.printf("valor a ser pago R$ %.2f",plano);
 			
 		}
 		
